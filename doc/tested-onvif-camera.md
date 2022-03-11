@@ -4,7 +4,7 @@ The following table shows the tested Onvif cameras with Onvif functions:
 * 'O' means the function works for the camera.
 * 'X' means the function not work for the camera. The camera might not perform the request or return empty response.
 
-| Feature                            | Onvif Web Service | Onvif Function                      | Hikvision DFI6256TE | Tapo C200 | BOSCH DINION IP starlight 6000 HD | GeoVision GV-BX8700 |
+| Feature                            | Onvif Web Service | Onvif Function                      | Hikvision DFI6256TE | Tapo C200 | BOSCH DINION IP starlight 6000 HD | GeoVision GV-BX8700 | Honeywell HC30WB5R1 |
 |------------------------------------|-------------------|-------------------------------------|---------------------|-----------|-----------------------------------|---------------------|
 | User Authentication                | Core              | **WS-Usernametoken Authentication** | O                   | O         | O                                 | O                   |
 |                                    |                   | **HTTP Digest**                     | O                   | X         | O                                 | X                   |
