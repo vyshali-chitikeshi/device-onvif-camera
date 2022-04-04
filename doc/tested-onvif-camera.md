@@ -4,17 +4,17 @@ The following table shows the tested Onvif cameras with Onvif functions:
 * 'O' means the function works for the camera.
 * 'X' means the function not work for the camera. The camera might not perform the request or return empty response.
 
-| Feature                            | Onvif Web Service | Onvif Function                      | Hikvision DFI6256TE | Tapo C200 | BOSCH DINION IP starlight 6000 HD | GeoVision GV-BX8700 |
-|------------------------------------|-------------------|-------------------------------------|---------------------|-----------|-----------------------------------|---------------------|
-| User Authentication                | Core              | **WS-Usernametoken Authentication** | O                   | O         | O                                 | O                   |
-|                                    |                   | **HTTP Digest**                     | O                   | X         | O                                 | X                   |
-| Auto Discovery                     | Core              | **WS-Discovery**                    | O                   | O         | O                                 | O                   |
-|                                    | Device            | GetDiscoveryMode                    | O                   | O         | O                                 | O                   |
-|                                    |                   | SetDiscoveryMode                    | O                   | O         | O                                 | O                   |
-|                                    |                   | GetScopes                           | O                   | O         | O                                 | O                   |
-|                                    |                   | SetScopes                           | O                   | O         | O                                 | O                   |
-|                                    |                   | AddScopes                           | O                   | X         | O                                 | O                   |
-|                                    |                   | RemoveScopes                        | O                   | X         | O                                 | O                   |
+| Feature                            | Onvif Web Service | Onvif Function                      | Hikvision DFI6256TE | Tapo C200 | BOSCH DINION IP starlight 6000 HD | GeoVision GV-BX8700 | Honeywell HC30WB5R1 |
+|------------------------------------|-------------------|-------------------------------------|---------------------|-----------|-----------------------------------|---------------------|--------------|
+| User Authentication                | Core              | **WS-Usernametoken Authentication** | O                   | O         | O                                 | O                   |   O          |
+|                                    |                   | **HTTP Digest**                     | O                   | X         | O                                 | X                   |   X          |
+| Auto Discovery                     | Core              | **WS-Discovery**                    | O                   | O         | O                                 | O                   |   O          |
+|                                    | Device            | GetDiscoveryMode                    | O                   | O         | O                                 | O                   |   O          |
+|                                    |                   | SetDiscoveryMode                    | O                   | O         | O                                 | O                   |   O          |
+|                                    |                   | GetScopes                           | O                   | O         | O                                 | O                   |   O          |
+|                                    |                   | SetScopes                           | O                   | O         | O                                 | O                   |   X          |
+|                                    |                   | AddScopes                           | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | RemoveScopes                        | O                   | X         | O                                 | O                   |   O          |
 | Network Configuration              | Device            | GetHostname                         | O                   | O         | O                                 | O                   |
 |                                    |                   | SetHostname                         | O                   | X         | O                                 | O                   |
 |                                    |                   | GetDNS                              | O                   | X         | O                                 | O                   |
