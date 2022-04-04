@@ -15,16 +15,16 @@ The following table shows the tested Onvif cameras with Onvif functions:
 |                                    |                   | SetScopes                           | O                   | O         | O                                 | O                   |   X          |
 |                                    |                   | AddScopes                           | O                   | X         | O                                 | O                   |   O          |
 |                                    |                   | RemoveScopes                        | O                   | X         | O                                 | O                   |   O          |
-| Network Configuration              | Device            | GetHostname                         | O                   | O         | O                                 | O                   |
-|                                    |                   | SetHostname                         | O                   | X         | O                                 | O                   |
-|                                    |                   | GetDNS                              | O                   | X         | O                                 | O                   |
-|                                    |                   | SetDNS                              | O                   | X         | O                                 | O                   |
-|                                    |                   | **GetNetworkInterfaces**            | O                   | O         | O                                 | O                   |
-|                                    |                   | **SetNetworkInterfaces**            | O                   | X         | O                                 | O                   |
-|                                    |                   | GetNetworkProtocols                 | O                   | O         | O                                 | O                   |
-|                                    |                   | SetNetworkProtocols                 | O                   | X         | O                                 | O                   |
-|                                    |                   | **GetNetworkDefaultGateway**        | O                   | X         | O                                 | O                   |
-|                                    |                   | **SetNetworkDefaultGateway**        | O                   | X         | O                                 | O                   |
+| Network Configuration              | Device            | GetHostname                         | O                   | O         | O                                 | O                   |   O          |
+|                                    |                   | SetHostname                         | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | GetDNS                              | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | SetDNS                              | O                   | X         | O                                 | O                   |   X          |
+|                                    |                   | **GetNetworkInterfaces**            | O                   | O         | O                                 | O                   |   O          |
+|                                    |                   | **SetNetworkInterfaces**            | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | GetNetworkProtocols                 | O                   | O         | O                                 | O                   |   O          |
+|                                    |                   | SetNetworkProtocols                 | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | **GetNetworkDefaultGateway**        | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | **SetNetworkDefaultGateway**        | O                   | X         | O                                 | O                   |   X          |
 | System Function                    | Device            | **GetDeviceInformation**            | O                   | O         | O                                 | O                   |
 |                                    |                   | GetSystemDateAndTime                | O                   | O         | O                                 | O                   |
 |                                    |                   | SetSystemDateAndTime                | O                   | X         | O                                 | O                   |
