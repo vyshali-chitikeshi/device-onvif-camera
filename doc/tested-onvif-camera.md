@@ -25,11 +25,11 @@ The following table shows the tested Onvif cameras with Onvif functions:
 |                                    |                   | SetNetworkProtocols                 | O                   | X         | O                                 | O                   |   O          |
 |                                    |                   | **GetNetworkDefaultGateway**        | O                   | X         | O                                 | O                   |   O          |
 |                                    |                   | **SetNetworkDefaultGateway**        | O                   | X         | O                                 | O                   |   X          |
-| System Function                    | Device            | **GetDeviceInformation**            | O                   | O         | O                                 | O                   |
-|                                    |                   | GetSystemDateAndTime                | O                   | O         | O                                 | O                   |
-|                                    |                   | SetSystemDateAndTime                | O                   | X         | O                                 | O                   |
+| System Function                    | Device            | **GetDeviceInformation**            | O                   | O         | O                                 | O                   |   O
+|                                    |                   | GetSystemDateAndTime                | O                   | O         | O                                 | O                   |   O
+|                                    |                   | SetSystemDateAndTime                | O                   | X         | O                                 | O                   |   X
 |                                    |                   | SetSystemFactoryDefault             | O                   | O         | O                                 | O                   |
-|                                    |                   | Reboot                              | O                   | O         | O                                 | O                   |
+|                                    |                   | Reboot                              | O                   | O         | O                                 | O                   |   O
 | User Handling                      | Device            | **GetUsers**                        | O                   | X         | O                                 | O                   |
 |                                    |                   | **CreateUsers**                     | O                   | X         | O                                 | O                   |
 |                                    |                   | **DeleteUsers**                     | O                   | X         | O                                 | O                   |
