@@ -30,22 +30,22 @@ The following table shows the tested Onvif cameras with Onvif functions:
 |                                    |                   | SetSystemDateAndTime                | O                   | X         | O                                 | O                   |   X
 |                                    |                   | SetSystemFactoryDefault             | O                   | O         | O                                 | O                   |
 |                                    |                   | Reboot                              | O                   | O         | O                                 | O                   |   O
-| User Handling                      | Device            | **GetUsers**                        | O                   | X         | O                                 | O                   |
-|                                    |                   | **CreateUsers**                     | O                   | X         | O                                 | O                   |
-|                                    |                   | **DeleteUsers**                     | O                   | X         | O                                 | O                   |
-|                                    |                   | **SetUser**                         | O                   | X         | O                                 | O                   |
-| Metadata Configuration             | Media             | GetMetadataConfigurations           | O                   | X         | O                                 | O                   |
-|                                    |                   | GetMetadataConfiguration            | O                   | X         | O                                 | O                   |
-|                                    |                   | GetCompatibleMetadataConfigurations | O                   | X         | O                                 | O                   |
-|                                    |                   | **GetMetadataConfigurationOptions** | O                   | X         | O                                 | O                   |
-|                                    |                   | AddMetadataConfiguration            | O                   | X         | O                                 | O                   |
-|                                    |                   | RemoveMetadataConfiguration         | O                   | X         | O                                 | O                   |
-|                                    |                   | **SetMetadataConfiguration**        | O                   | X         | O                                 | O                   |
-| Video Streaming                    | Media             | **GetProfiles**                     | O                   | O         | O                                 | O                   |
-|                                    |                   | **GetStreamUri**                    | O                   | O         | O                                 | O                   |
-| VideoEncoder  Config               | Media             | GetVideoEncoderConfiguration        | O                   | O         | O                                 | O                   |
-|                                    |                   | **SetVideoEncoderConfiguration**    | O                   | X         | O                                 | O                   |
-|                                    |                   | GetVideoEncoderConfigurationOptions | O                   | O         | O                                 | O                   |
+| User Handling                      | Device            | **GetUsers**                        | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | **CreateUsers**                     | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | **DeleteUsers**                     | O                   | X         | O                                 | O                   |   X          |
+|                                    |                   | **SetUser**                         | O                   | X         | O                                 | O                   |   O          |
+| Metadata Configuration             | Media             | GetMetadataConfigurations           | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | GetMetadataConfiguration            | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | GetCompatibleMetadataConfigurations | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | **GetMetadataConfigurationOptions** | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | AddMetadataConfiguration            | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | RemoveMetadataConfiguration         | O                   | X         | O                                 | O                   |   O          |
+|                                    |                   | **SetMetadataConfiguration**        | O                   | X         | O                                 | O                   |   X          |
+| Video Streaming                    | Media             | **GetProfiles**                     | O                   | O         | O                                 | O                   |   O          |
+|                                    |                   | **GetStreamUri**                    | O                   | O         | O                                 | O                   |   O          |
+| VideoEncoder  Config               | Media             | GetVideoEncoderConfiguration        | O                   | O         | O                                 | O                   |   O          |
+|                                    |                   | **SetVideoEncoderConfiguration**    | O                   | X         | O                                 | O                   |   X          |
+|                                    |                   | GetVideoEncoderConfigurationOptions | O                   | O         | O                                 | O                   |   O          |
 | PTZ Node                           | PTZ               | GetNodes                            | X                   | O         | X                                 | X                   |
 |                                    |                   | GetNode                             | X                   | O         | X                                 | X                   |
 | PTZ Configuration                  | PTZ               | GetConfigurations                   | X                   | O         | X                                 | X                   |
