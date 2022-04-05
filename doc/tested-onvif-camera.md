@@ -34,20 +34,20 @@ The following table shows the tested Onvif cameras with Onvif functions:
 |                                    |                   | **CreateUsers**                     | O                   | X         | O                                 | O                   |   O          |
 |                                    |                   | **DeleteUsers**                     | O                   | X         | O                                 | O                   |   X          |
 |                                    |                   | **SetUser**                         | O                   | X         | O                                 | O                   |   O          |
-| Metadata Configuration             | Media             | GetMetadataConfigurations           | O                   | X         | O                                 | O                   |   O          |
-|                                    |                   | GetMetadataConfiguration            | O                   | X         | O                                 | O                   |   O          |
-|                                    |                   | GetCompatibleMetadataConfigurations | O                   | X         | O                                 | O                   |   O          |
-|                                    |                   | **GetMetadataConfigurationOptions** | O                   | X         | O                                 | O                   |   O          |
-|                                    |                   | AddMetadataConfiguration            | O                   | X         | O                                 | O                   |   O          |
-|                                    |                   | RemoveMetadataConfiguration         | O                   | X         | O                                 | O                   |   O          |
+| Metadata Configuration             | Media             | GetMetadataConfigurations           | O                   | X         | O                                 | O                   |   X          |
+|                                    |                   | GetMetadataConfiguration            | O                   | X         | O                                 | O                   |   X         |
+|                                    |                   | GetCompatibleMetadataConfigurations | O                   | X         | O                                 | O                   |   X          |
+|                                    |                   | **GetMetadataConfigurationOptions** | O                   | X         | O                                 | O                   |   X          |
+|                                    |                   | AddMetadataConfiguration            | O                   | X         | O                                 | O                   |   X         |
+|                                    |                   | RemoveMetadataConfiguration         | O                   | X         | O                                 | O                   |   X         |
 |                                    |                   | **SetMetadataConfiguration**        | O                   | X         | O                                 | O                   |   X          |
 | Video Streaming                    | Media             | **GetProfiles**                     | O                   | O         | O                                 | O                   |   O          |
 |                                    |                   | **GetStreamUri**                    | O                   | O         | O                                 | O                   |   O          |
 | VideoEncoder  Config               | Media             | GetVideoEncoderConfiguration        | O                   | O         | O                                 | O                   |   O          |
 |                                    |                   | **SetVideoEncoderConfiguration**    | O                   | X         | O                                 | O                   |   X          |
 |                                    |                   | GetVideoEncoderConfigurationOptions | O                   | O         | O                                 | O                   |   O          |
-| PTZ Node                           | PTZ               | GetNodes                            | X                   | O         | X                                 | X                   |
-|                                    |                   | GetNode                             | X                   | O         | X                                 | X                   |
+| PTZ Node                           | PTZ               | GetNodes                            | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | GetNode                             | X                   | O         | X                                 | X                   |   X          |
 | PTZ Configuration                  | PTZ               | GetConfigurations                   | X                   | O         | X                                 | X                   |
 |                                    |                   | GetConfiguration                    | X                   | O         | X                                 | X                   |
 |                                    |                   | GetConfigurationOptions             | X                   | O         | X                                 | X                   |
