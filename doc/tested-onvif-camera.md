@@ -48,45 +48,45 @@ The following table shows the tested Onvif cameras with Onvif functions:
 |                                    |                   | GetVideoEncoderConfigurationOptions | O                   | O         | O                                 | O                   |   O          |
 | PTZ Node                           | PTZ               | GetNodes                            | X                   | O         | X                                 | X                   |   X          |
 |                                    |                   | GetNode                             | X                   | O         | X                                 | X                   |   X          |
-| PTZ Configuration                  | PTZ               | GetConfigurations                   | X                   | O         | X                                 | X                   |
-|                                    |                   | GetConfiguration                    | X                   | O         | X                                 | X                   |
-|                                    |                   | GetConfigurationOptions             | X                   | O         | X                                 | X                   |
-|                                    |                   | SetConfiguration                    | X                   | X         | X                                 | X                   |
-|                                    | Media             | AddPTZConfiguration                 | X                   | X         | X                                 | X                   |
-|                                    | Media             | RemovePTZConfiguration              | X                   | X         | X                                 | X                   |
-| PTZ Actuation                      | PTZ               | AbsoluteMove                        | X                   | O         | X                                 | X                   |
-|                                    |                   | RelativeMove                        | X                   | O         | X                                 | X                   |
-|                                    |                   | ContinuousMove                      | X                   | O         | X                                 | X                   |
-|                                    |                   | Stop                                | X                   | O         | X                                 | X                   |
-|                                    |                   | GetStatus                           | X                   | O         | X                                 | X                   |
-| PTZ Preset                         | PTZ               | SetPreset                           | X                   | O         | X                                 | X                   |
-|                                    |                   | GetPresets                          | X                   | O         | X                                 | X                   |
-|                                    |                   | GotoPreset                          | X                   | O         | X                                 | X                   |
-|                                    |                   | RemovePreset                        | X                   | O         | X                                 | X                   |
-| PTZ Home Position                  | PTZ               | GotoHomePosition                    | X                   | X         | X                                 | X                   |
-|                                    |                   | SetHomePosition                     | X                   | X         | X                                 | X                   |
-| PTZ AuxiliaryOperations            | PTZ               | SendAuxiliaryCommand                | X                   | X         | X                                 | X                   |
-| Event Handling                     | Event             | Notify                              | O                   | X         | O                                 | X                   |
-|                                    |                   | Subscribe                           | O                   | X         | O                                 | X                   |
-|                                    |                   | Renew                               | X                   | X         | O                                 | X                   |
-|                                    |                   | Unsubscribe                         | O                   | X         | O                                 | X                   |
-|                                    |                   | CreatePullPointSubscription         | O                   | X         | O                                 | X                   |
-|                                    |                   | PullMessages                        | O                   | X         | O                                 | X                   |
-|                                    |                   | TopicFilter                         | O                   | X         | O                                 | X                   |
-|                                    |                   | MessageContentFilter                | X                   | X         | X                                 | X                   |
-| Configuration of Analytics profile | Media2            | GetProfiles                         | X                   | X         | O                                 | X                   |
-|                                    |                   | GetAnalyticsConfigurations          | X                   | X         | O                                 | X                   |
-|                                    |                   | AddConfiguration                    | X                   | X         | O                                 | X                   |
-|                                    |                   | RemoveConfiguration                 | X                   | X         | O                                 | X                   |
-| Analytics Module configuration     | Analytics         | GetSupportedAnalyticsModules        | X                   | X         | O                                 | X                   |
-|                                    |                   | GetAnalyticsModules                 | X                   | X         | O                                 | X                   |
-|                                    |                   | CreateAnalyticsModules              | X                   | X         | X                                 | X                   |
-|                                    |                   | DeleteAnalyticsModules              | X                   | X         | X                                 | X                   |
-|                                    |                   | GetAnalyticsModuleOptions           | X                   | X         | O                                 | X                   |
-|                                    |                   | ModifyAnalyticsModules              | X                   | X         | O                                 | X                   |
-| Rule configuration                 | Analytics         | GetSupportedRules                   | X                   | X         | O                                 | X                   |
-|                                    |                   | GetRules                            | X                   | X         | O                                 | X                   |
-|                                    |                   | CreateRules                         | X                   | X         | O                                 | X                   |
-|                                    |                   | DeleteRules                         | X                   | X         | O                                 | X                   |
-|                                    |                   | GetRuleOptions                      | X                   | X         | O                                 | X                   |
-|                                    |                   | ModifyRules                         | X                   | X         | O                                 | X                   |
+| PTZ Configuration                  | PTZ               | GetConfigurations                   | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | GetConfiguration                    | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | GetConfigurationOptions             | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | SetConfiguration                    | X                   | X         | X                                 | X                   |   X          |
+|                                    | Media             | AddPTZConfiguration                 | X                   | X         | X                                 | X                   |   X          |
+|                                    | Media             | RemovePTZConfiguration              | X                   | X         | X                                 | X                   |   X          |
+| PTZ Actuation                      | PTZ               | AbsoluteMove                        | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | RelativeMove                        | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | ContinuousMove                      | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | Stop                                | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | GetStatus                           | X                   | O         | X                                 | X                   |   X          |
+| PTZ Preset                         | PTZ               | SetPreset                           | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | GetPresets                          | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | GotoPreset                          | X                   | O         | X                                 | X                   |   X          |
+|                                    |                   | RemovePreset                        | X                   | O         | X                                 | X                   |   X          |
+| PTZ Home Position                  | PTZ               | GotoHomePosition                    | X                   | X         | X                                 | X                   |   X          |
+|                                    |                   | SetHomePosition                     | X                   | X         | X                                 | X                   |   X          |
+| PTZ AuxiliaryOperations            | PTZ               | SendAuxiliaryCommand                | X                   | X         | X                                 | X                   |   X          |
+| Event Handling                     | Event             | Notify                              | O                   | X         | O                                 | X                   |   X          |
+|                                    |                   | Subscribe                           | O                   | X         | O                                 | X                   |   X          |
+|                                    |                   | Renew                               | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | Unsubscribe                         | O                   | X         | O                                 | X                   |   X          |
+|                                    |                   | CreatePullPointSubscription         | O                   | X         | O                                 | X                   |   X          |
+|                                    |                   | PullMessages                        | O                   | X         | O                                 | X                   |   X          |
+|                                    |                   | TopicFilter                         | O                   | X         | O                                 | X                   |   X          |
+|                                    |                   | MessageContentFilter                | X                   | X         | X                                 | X                   |   X          |
+| Configuration of Analytics profile | Media2            | GetProfiles                         | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | GetAnalyticsConfigurations          | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | AddConfiguration                    | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | RemoveConfiguration                 | X                   | X         | O                                 | X                   |   X          |
+| Analytics Module configuration     | Analytics         | GetSupportedAnalyticsModules        | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | GetAnalyticsModules                 | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | CreateAnalyticsModules              | X                   | X         | X                                 | X                   |   X          |
+|                                    |                   | DeleteAnalyticsModules              | X                   | X         | X                                 | X                   |   X          |
+|                                    |                   | GetAnalyticsModuleOptions           | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | ModifyAnalyticsModules              | X                   | X         | O                                 | X                   |   X          |
+| Rule configuration                 | Analytics         | GetSupportedRules                   | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | GetRules                            | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | CreateRules                         | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | DeleteRules                         | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | GetRuleOptions                      | X                   | X         | O                                 | X                   |   X          |
+|                                    |                   | ModifyRules                         | X                   | X         | O                                 | X                   |   X          |
